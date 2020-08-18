@@ -4,7 +4,7 @@ Efficient Sort of Integer Lists in Minecraft JE 1.16+
 
 # 使い方/How To Use
 
-```
+```mcfunction
 data modify storage natural_merge_sort: List set value [3,8,1,2,10,5,6,2,9,1,5,4,7]  
 function natural_merge_sort:ascend  
 data get storage natural_merge_sort: List  
