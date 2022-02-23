@@ -8,8 +8,6 @@
 # @input storage natural_merge_sort: List
 #   ソートする数値配列 / the int list to sort
 
-#define storage natural_merge_sort:
-
 function natural_merge_sort:sys/sort
 execute unless data storage natural_merge_sort: ListAsc[0] run function natural_merge_sort:sys/ascend
 data modify storage natural_merge_sort: List set from storage natural_merge_sort: ListAsc[0]
