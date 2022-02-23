@@ -10,7 +10,7 @@
 
 execute store result score $Value1 _ run data get storage natural_merge_sort: List[-1]
 execute if score $Value2 _ < $Value1 _ run data modify storage natural_merge_sort: ListDesc append value []
-data modify storage natural_merge_sort: ListDesc[-1] append value 0
-execute store result storage natural_merge_sort: ListDesc[-1][-1] int 1 run scoreboard players operation $Value2 _ = $Value1 _
+data modify storage natural_merge_sort: ListDesc[-1] append from storage natural_merge_sort: List[-1]
+scoreboard players operation $Value2 _ = $Value1 _
 data remove storage natural_merge_sort: List[-1]
 execute if data storage natural_merge_sort: List[0] run function natural_merge_sort:sys/setup
