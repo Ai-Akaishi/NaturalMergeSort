@@ -26,7 +26,7 @@ data get storage natural_merge_sort: List
 
 function #natural_merge_sort:descend  
 data get storage natural_merge_sort: List  
-# => [{weight: 1, value: "one"}, {weight: 1, value: "one"}, {weight: 2, value: "two"}, {weight: 2, value: "two"}, {weight: 3, value: "three"}, {weight: 4, value: "four"}, {weight: 5, value: "five"}, {weight: 5, value: "five"}, {weight: 6, value: "six"}, {weight: 7, value: "seven"}, {weight: 8, value: "eight"}, {weight: 9, value: "nine"}, {weight: 10, value: "ten"}]
+# => [{weight: 10, value: "ten"}, {weight: 9, value: "nine"}, {weight: 8, value: "eight"}, {weight: 7, value: "seven"}, {weight: 6, value: "six"}, {weight: 5, value: "five"}, {weight: 5, value: "five"}, {weight: 4, value: "four"}, {weight: 3, value: "three"}, {weight: 2, value: "two"}, {weight: 2, value: "two"}, {weight: 1, value: "one"}, {weight: 1, value: "one"}]
 ```
 
 # 連絡はこちら/Contact
